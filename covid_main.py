@@ -5,7 +5,7 @@ from dash.dependencies import Input, Output
 import plotly.express as px
 
 
-df=pd.read_csv('/home/eleo/VSC_projects/covid-project/covid-data.csv')
+df=pd.read_csv('your/path/to/covid-data.csv')
 # Check the available columns
 print(df.head())
 print(df.columns)
